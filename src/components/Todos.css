@@ -1,0 +1,25 @@
+.TodoList {
+    width: 90%;
+    /* background-color: black; */
+    height: 350px;
+    overflow-y: scroll;
+    padding: 7px 10px;
+}
+
+.TodoList::-webkit-scrollbar {
+    /* display: none; */
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 7px;
+    border-radius: 5px;
+}
+
+.TodoList::-webkit-scrollbar-thumb {
+    /* background: rgba(255,255,255,0.7); */
+    background-color: rgba(0,0,139, 0.9);
+    border-radius: 10px;
+}
+
+/* .TodoList::-webkit-scrollbar-thumb:hover {
+    background: rgba(255,255,255,1);
+    border-radius: 10px;
+} */

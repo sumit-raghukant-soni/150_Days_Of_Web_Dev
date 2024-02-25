@@ -1,0 +1,113 @@
+.Background{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+    /* background-color: rgb(194, 255, 235); */
+    background-color:rgb(0, 0, 82);
+}
+
+.circle{
+    position: absolute;
+    filter: blur(30px);
+    opacity: 0.8;
+}
+
+@keyframes fadeInOutLarge {
+    0%{
+        scale: 100%;
+    }
+    50%{
+        scale: 200%;
+    }
+    100%{
+        scale: 100%;
+    }
+}
+
+@keyframes fadeInOutSmall {
+    0%{
+        scale: 100%;
+    }
+    50%{
+        scale: 250%;
+    }
+    100%{
+        scale: 100%;
+    }
+}
+
+.circle:nth-child(1) {
+    height: 500px;
+    width: 500px;
+    background-color: aqua;
+    border-radius: 50%;
+    top: -50px;
+    left: -20px;
+    animation-delay: 5s;
+    animation: fadeInOutLarge 15s ease-in-out infinite;
+}
+
+.circle:nth-child(2) {
+    height: 250px;
+    width: 250px;
+    background-color: blue;
+    border-radius: 50%;
+    top: 450px;
+    left: 350px;
+    animation-delay: 2s;
+    animation: fadeInOutSmall 7s ease-in-out infinite;
+}
+
+.circle:nth-child(3) {
+    height: 350px;
+    width: 350px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    top: 50px;
+    left: 850px;
+    animation-delay: 7s;
+    animation: fadeInOutSmall 7s ease-in-out infinite;
+}
+
+.circle:nth-child(4) {
+    height: 350px;
+    width: 350px;
+    background-color: chartreuse;
+    border-radius: 50%;
+    top: 580px;
+    left: -40px;
+    animation-delay: 8s;
+    animation: fadeInOutSmall 7s ease-in-out infinite;
+}
+.circle:nth-child(5) {
+    height: 350px;
+    width: 350px;
+    background-color:yellow;
+    border-radius: 50%;
+    top: 550px;
+    left: 700px;
+    animation-delay: 1s;
+    animation: fadeInOutSmall 4s ease-in-out infinite;
+}
+.circle:nth-child(6) {
+    height: 400px;
+    width: 400px;
+    background-color: darkblue;
+    border-radius: 50%;
+    top: 400px;
+    right: 50px;
+    animation-delay: 10s;
+    animation: fadeInOutSmall 15s ease-in-out infinite;
+}
+
+.circle:nth-child(7) {
+    height: 400px;
+    width: 400px;
+    background-color:deeppink;
+    border-radius: 50%;
+    top: -100px;
+    right: -150px;
+    animation-delay: 10s;
+    animation: fadeInOutLarge 15s ease-in-out infinite;
+}

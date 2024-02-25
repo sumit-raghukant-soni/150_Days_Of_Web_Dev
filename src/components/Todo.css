@@ -1,0 +1,50 @@
+.todo{
+    /* background-color: white; */
+    /* background-color: rgba(255, 255, 255, 1); */
+    background-color: darkblue;
+    color: white;
+    box-shadow: 0px 0px 7px rgba(0,0,0,1);
+    padding: 10px;
+    margin: 10px 0 0 0;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: large;
+}
+
+.todo:first-child{
+    margin: 0;
+}
+
+
+.sideIcons{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    gap: 12px;
+    /* color: darkblue; */
+    color: white;
+    cursor: pointer;
+}
+
+.todo span{
+    text-align: left;
+}
+
+.todo input:nth-child(1){
+    cursor: pointer;
+    outline: none;
+}
+
+.todo input{
+    background-color: rgba(0,0,0,0);
+    border: none;
+    color: white;
+    width: 85%;
+}
+
+.done{
+    background-color: green;
+    text-decoration: line-through;
+}
